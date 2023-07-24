@@ -1,0 +1,38 @@
+html,
+body,
+.intro {
+    height: 100%;
+}
+
+table td,
+table th {
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 200px;
+    max-width: 200px; */
+
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+tbody td {
+    font-weight: 500;
+    color: #999999;
+}
+
+.tbl-bg-image
+{
+    /* use gradient bg  */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1519680772-8b5b0b5e1b1a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

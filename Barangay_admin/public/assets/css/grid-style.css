@@ -1,0 +1,118 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+    place-items: center;
+    gap: 1rem;
+    text-align: center;
+    height: auto;
+}
+
+.child-grid {
+    background-color: hsl(0, 29%, 97%);
+    box-shadow: 10px 10px hsla(0, 1%, 65%, 0.75);
+    height: auto;
+    cursor: pointer;
+    border-radius: 1em;
+    width: min(85%, 400px);
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.child-grid img {
+    height: auto;
+    border-radius: 1em;
+}
+
+.child-grid input{
+    background-color: hsl(0, 29%, 97%);
+    border: none;
+}
+.child-grid input:focus{
+    outline: none;
+}
+
+
+/* .child-grid:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transition: all 0.8s ease-in-out;
+    font-size: larger;
+} */
+
+
+@media screen and (max-width: 299px) {
+    .grid-container {
+        grid-template-columns: repeat(2, minmax(auto, 1fr));
+        place-items: center;
+    }
+
+    .child-grid{
+        width: inherit;
+    }
+
+    .child-grid img {
+        height: auto;
+        border-radius: 1em;
+        min-width: 20%;
+    }
+
+}
+
+@media screen and (min-width: 300px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(auto, 1fr));
+        place-items: center;
+    }
+
+    .child-grid{
+        width: inherit;
+        place-items: center;
+    }
+
+    .child-grid input {
+        font-size: 0.46rem;
+        text-align: center;
+        width: inherit;
+    }
+
+    .tab {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(4, minmax(auto, 1fr));
+        place-items: center;
+    }
+
+    .child-grid:hover img {
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transition: all 0.8s ease-in-out;
+    }
+
+    .button-bg-green {
+        margin: 2rem;
+        font-size: medium;
+        background-color: hsl(120, 56%, 92%);
+    }
+    
+    .button-bg-green:hover {
+        background-color: hsl(120, 100%, 88%);
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transition: all 0.8s ease-in-out;      
+    }
+
+    .child-grid input{
+        font-size: medium;
+    }
+ 
+}
+    

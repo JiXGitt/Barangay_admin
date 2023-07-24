@@ -1,0 +1,47 @@
+.burgerIcon {
+    border-radius: 50%;
+}
+.fa-bowl-food {
+    color: rgb(190, 175, 155);
+}
+.fa-hashtag {
+    color: rgb(155, 190, 186);
+}
+.fa-peso-sign {
+    color: violet;
+}
+.fa-arrow-down-short-wide {
+    color: hsla(0, 76%, 41%, 0.818);
+}
+.fa-tag {
+    color: hsla(0, 76%, 41%, 0.818);
+}
+.fa-coins {
+    color: hsl(60, 62%, 47%);
+}
+.fa-fire {
+    color: hsl(11, 95%, 29%);
+}
+a.fire:hover {
+    background-color: hsl(11, 62%, 62%);
+    color: rgb(241, 241, 241);
+    border-radius: 3rem;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.fa-cake-candles {
+    color: hsl(300, 40%, 48%);
+}
+a.cake:hover {
+    background-color: hsl(300, 100%, 83%);
+    color: rgb(241, 241, 241);
+    border-radius: 15px 50px 30px 5px;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.page3Icon:hover{
+    background-color: hsl(66, 39%, 70%);
+    border-radius: 30px 10px 10px 30px;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
